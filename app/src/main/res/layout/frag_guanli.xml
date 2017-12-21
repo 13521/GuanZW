@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFBC37">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_baom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我报名的"
+                android:button="@null"
+                android:background="@drawable/background"
+                android:textColor="@drawable/textcolor"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/radio_fabu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我发布的"
+                android:button="@null"
+                android:background="@drawable/background"
+                android:textColor="@drawable/textcolor"/>
+
+
+        </RadioGroup>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@+id/main"
+        android:id="@+id/gviewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asus.guanzw.view.MainActivity"
+    xmlns:hjm="http://schemas.android.com/apk/res-auto"  >
+
+    <com.hjm.bottomtabbar.BottomTabBar
+        android:id="@+id/bottomtabbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        hjm:tab_divider_height="5dp"
+        hjm:tab_font_size="20sp"
+        >
+
+    </com.hjm.bottomtabbar.BottomTabBar>
+
+
+</LinearLayout>
